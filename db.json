@@ -1,0 +1,165 @@
+{
+    "products": [
+        {
+            "brand": "19 Crimes", 
+            "name": "2020 Snoop Dogg Cali Red", 
+            "region": "California",
+            "price": 15,
+            "image": "VR-Cali-Red-750-US.png",
+            "popular": 10,
+            "rating": 98,
+            "type": "Red"
+            
+        },
+        {
+            "brand": "Stags", 
+            "name": "2018 Napa Valley Petite Sirah", 
+            "region": "Napa Valley",
+            "price": 50,
+            "image": "Stags-Leap-Napa-Petite-750.png",
+            "popular": 9,
+            "rating": 71,
+            "type": "Red"
+        },
+        {
+            "brand": "Penfolds", 
+            "name": "2018 Bin 28 Shiraz", 
+            "region": "South Australia",
+            "price": 40,
+            "image": "FL-750-Cork_nolabel.png",
+            "popular": 2,
+            "rating": 25,
+            "type": "Red"
+        },
+        {
+            "brand": "Stags Leap", 
+            "name": "2018 The Leap Cabernet Sauvignon", 
+            "region": "Stags Leap District",
+            "price": 120,
+            "image": "Stags-Leap-The-Leap-Cabernet-Sauvignon_750.png",
+            "popular": 10,
+            "rating": 90,
+            "type": "Red"
+        },
+        {
+            "brand": "19 Crimes", 
+            "name": "2018 Shiraz", 
+            "region": "South East Australia",
+            "price": 13,
+            "image": "Crimes_Shiraz-750.png",
+            "popular": 8,
+            "rating": 90,
+            "type": "Red"
+        },
+        {
+            "brand": "Beaulieu Vineyard", 
+            "name": "2018 Georges De Latour Cabernet Sauvignon", 
+            "region": "Napa Valley",
+            "price": 150,
+            "image": "Latour-Cabernet-Sauvignon_750.png",
+            "popular": 0,
+            "rating": 0,
+            "type": "Red"
+        },
+        {
+            "brand": "Beringer", 
+            "name": "2018 Beringer Bros Rye Barrel Aged Red Blend", 
+            "region": "California",
+            "price": 20,
+            "image": "Brothers_Rye_Red Blend-750.png",
+            "popular": 0,
+            "rating": 0,
+            "type": "Red"
+        },
+        {
+            "brand": "Beaulieu Vineyard", 
+            "name": "2017 Tapestry Reserve Red Wine", 
+            "region": "Napa Valley",
+            "price": 75,
+            "image": "Beaulieu-Vineyard-Tapestry-NV-Red_750.png",
+            "popular": 5,
+            "rating": 79,
+            "type": "Red"
+        },
+        {
+            "brand": "Beringer", 
+            "name": "2017 Whisper Sisters Cabernet Sauvignon", 
+            "region": "Napa Sonoma",
+            "price": 30,
+            "image": "Whisper-Sisters-Cabernet-Sauvignon.png",
+            "popular": 3,
+            "rating": 89,
+            "type": "Red"
+        },
+        {
+            "brand": "Beringer", 
+            "name": "2019 Beringer Bros Bourbon Barrel Aged Red Blend", 
+            "region": "California",
+            "price": 20,
+            "image": "Brothers_Bourbon_Barrel_RedWine-750.png",
+            "popular": 8,
+            "rating": 72,
+            "type": "Red"
+        },
+        {
+            "brand": "Hewitt Vineyard", 
+            "name": "2011 Hewitt Rutherford Cabernet Sauvignon Magnum", 
+            "region": "Rutherford",
+            "price": 290,
+            "image": "Sterling-Reserve-Calistoga-CabSauv_750.png",
+            "popular": 6,
+            "rating": 99,
+            "type": "Red"
+        },
+        {
+            "brand": "19 Crimes", 
+            "name": "2017 The Warden Red Blend", 
+            "region": "South East Australia",
+            "price": 20,
+            "image": "19C-VR-The-Warden-RedWine-750-US.png",
+            "popular": 10,
+            "rating": 100,
+            "type": "Red"
+        },
+        {
+            "brand": "Cavaliere D'Oro", 
+            "name": "2018 Castello Di Gabbiano Chianti Classico DOCG", 
+            "region": "California",
+            "price": 16,
+            "image": "CDO-GAB-VR-Chianti-Classico-750.png",
+            "popular": 9,
+            "rating": 99,
+            "type": "Red"
+        },
+        {
+            "brand": "Beringer", 
+            "name": "2017 Sonoma Coast Pinot Noir", 
+            "region": "Sonoma Coast",
+            "price": 36,
+            "image": "BER-2018-SC-PinotNoir-750.png",
+            "popular": 3,
+            "rating": 78,
+            "type": "Red"
+        },
+        {
+            "brand": "Sterling Vineyards", 
+            "name": "2016 Iridium Cabernet Sauvignon", 
+            "region": "Napa Valley",
+            "price": 175,
+            "image": "Sterling-Vineyards-Reserve-Iridium-Cabernet-Sauvignon-Napa-Valley.png",
+            "popular": 10,
+            "rating": 100,
+            "type": "Red"
+        },
+        {
+            "brand": "Beaulieu Vineyard", 
+            "name": "2013 Rarity Cabernet Sauvignon Magnum", 
+            "region": "Napa Valley",
+            "price": 1600,
+            "image": "Beaulieu-Vineyard-Rarity-Cabernet-Sauvignon-MAGNUM.png",
+            "popular": 0,
+            "rating": 0,
+            "type": "Red"
+        }
+    ]
+}
