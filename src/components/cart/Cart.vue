@@ -35,16 +35,14 @@
               </p>
             </div>
             <div>
-              <!-- <btn-grey
+              <btn-grey
                 type="submit"
                 class="buttonProceedToPayment"
                 value="submit-shipping"
                 >Coninuer pour payer</btn-grey
-              > -->
-              
+              >
+
               <!-- Set up a container element for the button -->
-              <div id="paypal-button-container"></div>
-             
             </div>
             <div class="shipping-help">
               <h4 class="shipping-help_title">

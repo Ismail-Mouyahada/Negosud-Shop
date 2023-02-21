@@ -4,6 +4,9 @@ const routes = [
   {
     path: "/",
     name: "home",
+    meta: {
+      requiresAuth: true
+    },
     component: () => import("@/views/home.vue"),
   },
   {
@@ -52,12 +55,27 @@ const routes = [
   },
 ];
 
+
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes,
-  scrollBehavior(to, from, savedPosition) {
-    return { top: 0 };
-  },
+  history: createWebHistory(),
+  routes
 });
+
+router.beforeEach((to, from, next) => {
+  const isAuthenticated = localStorage.getItem('token');
+  if (to.matched.some(record => record.meta.requiresAuth) && !isAuthenticated) {
+    next('/authorization');
+  } else {
+    next();
+  }
+});
+
+// const router = createRouter({
+//   history: createWebHistory(process.env.BASE_URL),
+//   routes,
+//   scrollBehavior(to, from, savedPosition) {
+//     return { top: 0 };
+//   },
+// });
 
 export default router;

@@ -1,5 +1,5 @@
 <template>
-  <input class="input-checkout" required />
+  <input class="input-checkout" required autocomplete />
 </template>
 
 <script>
