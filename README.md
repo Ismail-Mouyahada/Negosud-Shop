@@ -24,34 +24,34 @@ This project implements basic shopping cart and catalog features:
 
 ### Get Started
 ``` bash
-# install dependencies
+## install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+## serve with hot reload at localhost:8080
 npm run serve
 
 ```
 
-# Access Master Acces E-tax (Web App +  REST API )
+## Access Master Acces E-tax (Web App +  REST API )
 
-# Prerequests 
+## Prerequests 
 
-# Installation
+## Installation
 
-# Architecture
+## Architecture
 
-# Routing
+## Routing
 
-# technologies
+## technologies
 
-# Plugins
+## Plugins
 
-# Resources
+## Resources
 
-# DB Stracture
+## DB Stracture
 
-# Data Modeling 
+## Data Modeling 
 
-# User interface (UI) 
+## User interface (UI) 
 
-# User Experience (UX)
+## User Experience (UX)
