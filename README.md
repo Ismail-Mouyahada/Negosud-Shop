@@ -1,4 +1,4 @@
-# Haus (wine shop)
+# Negosud-Shop (wine shop)
 
 ## Technical details
 
