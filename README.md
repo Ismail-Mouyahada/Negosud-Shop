@@ -31,3 +31,27 @@ npm install
 npm run serve
 
 ```
+
+# Access Master Acces E-tax (Web App +  REST API )
+
+# Prerequests 
+
+# Installation
+
+# Architecture
+
+# Routing
+
+# technologies
+
+# Plugins
+
+# Resources
+
+# DB Stracture
+
+# Data Modeling 
+
+# User interface (UI) 
+
+# User Experience (UX)
