@@ -1,4 +1,4 @@
-# Haus (wine shop)
+# Negosud-Shop (wine shop)
 
 ## Technical details
 
@@ -20,14 +20,38 @@ This project implements basic shopping cart and catalog features:
 **Authorization in process (I've already started working on it)**
 
 ## Preview
-![IMG_9998](https://user-images.githubusercontent.com/95074782/194707124-149f1ef5-0f2f-48a1-a24e-1b8eb8ebf3d7.gif)
+ 
 
 ### Get Started
 ``` bash
-# install dependencies
+## install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+## serve with hot reload at localhost:8080
 npm run serve
 
 ```
+
+## Access Master Acces E-tax (Web App +  REST API )
+
+## Prerequests 
+
+## Installation
+
+## Architecture
+
+## Routing
+
+## technologies
+
+## Plugins
+
+## Resources
+
+## DB Stracture
+
+## Data Modeling 
+
+## User interface (UI) 
+
+## User Experience (UX)
