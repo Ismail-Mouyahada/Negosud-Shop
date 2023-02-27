@@ -14,26 +14,7 @@
       </template>
     </Carousel>
   </div>
-  <div class="feedbacks" v-else>
-    <div class="feedbacks-item">
-      <p class="feedbacks-item_title">
-        "Notre equipe celebre avec des boutielles de Negosud."
-      </p>
-      <img src="@/assets/food-and-wine.svg" alt="nouriture et vin" />
-    </div>
-    <div class="feedbacks-item">
-      <p class="feedbacks-item_title">
-        “Mon restaurant a eu beaucoup de succès grâce à notre vin Negosud.”
-      </p>
-      <img src="@/assets/new-yourk-times.svg" alt="nouriture et vin" />
-    </div>
-    <div class="feedbacks-item">
-      <p class="feedbacks-item_title">
-        “Très savoreux, pas très alcolisé et une arôme incoyable”
-      </p>
-      <img src="@/assets/bon-appetit.svg" alt="nouriture et vin" />
-    </div>
-  </div>
+   
 </template>
 
 <script>

@@ -43,3 +43,15 @@ button, .button{
     border:none !important;
 
 }
+ 
+.btn-success {
+    --mdb-btn-bg: #bcd114;
+    --mdb-btn-color: #fff;
+    --mdb-btn-box-shadow: 0 4px 9px -4px #81a414;
+    --mdb-btn-hover-bg: #759c13;
+    --mdb-btn-hover-color: #fff;
+    --mdb-btn-focus-bg: #759c13;
+    --mdb-btn-focus-color: #fff;
+    --mdb-btn-active-bg: #609412;
+    --mdb-btn-active-color: #fff;
+}

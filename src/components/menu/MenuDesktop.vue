@@ -1,26 +1,29 @@
 <template>
   <header class="navigation">
     <div class="navigation-flex">
-      <router-link :to="{ name: 'catalog' }" class="navigation-item">
-        <div>catalogue</div>
+      <router-link to="/" class="navigation-item">
+         <div> <i class="fa fa-home"></i></div>
       </router-link>
-      <a href="#" class="navigation-item">Carte fédilité</a>
-      <a href="#" class="navigation-item">Boutique</a>
+      <a href="#" class="navigation-item"> Carte fédilité</a>
+       <a href="/catalog" class="navigation-item"> Boutique</a>
     </div>
     <div class="logo">
       <Loading v-if="isLoading"></Loading>
-      <router-link to="/" class="navigation-item">
+      <router-link to="/" class=" ">
         <img src="@/assets/logo-negosud.png" class="navigation-item logo-mobile" alt="negosud logo" />
       </router-link>
     </div>
     <div class="navigation-flex">
-      <a href="#" class="navigation-item">Newsletter</a>
+      <a href="#" class="navigation-item"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Newsletter</a>
       <router-link :to="{ name: 'authorization' }" class="navigation-item">
-        <div>Compte</div>
+        <div><i class="fa fa-user"></i></div>
+      </router-link>
+      <router-link :to="{ name: 'register' }" class="navigation-item">
+        <div><i class="fa fa-key"></i></div>
       </router-link>
       <router-link :to="{ name: 'Cart' }" class="navigation-item cart-side">
         <div>
-          Panier <span class="cart-items">({{ CART.length }})</span>
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="cart-items ">({{ CART.length }})</span>
         </div>
       </router-link>
     </div>
@@ -65,7 +68,7 @@ export default {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background-color: #413d4e;
+    background-color: #03040433;
     z-index: 100;
     align-content: center;
     align-items: center;
@@ -80,13 +83,16 @@ export default {
     color: #fcfbf7;
     border-color: initial;
     text-decoration-color: initial;
-    height: 3em;
-    background-color: #352f42;
+    height: 39px;
+    background-color: #ed0c59de;
+    z-index: 100;
     text-align: center;
     display: flex;
     align-items: center;
-    padding: 0 2em;
-    border-radius: 1em;
+    padding: 0 1.5em;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 14px;
     font-family: comfortaa;
 
     &:not(:last-child) {
@@ -101,9 +107,11 @@ export default {
 }
 
 .cart-items {
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 700;
 }
 
- 
+img.navigation-item.logo-mobile {
+    background: none;
+}
 </style>

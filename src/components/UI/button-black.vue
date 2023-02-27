@@ -13,15 +13,15 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/scss/variables";
 .btn-black {
-  padding: 1.5em 3em;
-    background-image: linear-gradient(336deg,#acc102, #dcf323);
+    padding: 1.5em 3em;
+    background-image: linear-gradient(336deg, #acc102, #dcf323);
     border-radius: 5px;
-    border: none;
     font-size: 13px;
     font-weight: 700;
     font-family: "Comfortaa", Arial;
-    line-height: 14px;
+    line-height: 1em;
     text-align: center;
+    width: 100%;
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;

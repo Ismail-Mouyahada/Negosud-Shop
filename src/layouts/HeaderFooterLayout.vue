@@ -28,5 +28,6 @@ export default {
 <style lang="scss" scoped>
 .HeaderFooter-layout {
   padding-top: 5em;
+  background-image: linear-gradient(45deg, #dbd8ed, #0000);
 }
 </style>

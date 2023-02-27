@@ -17,45 +17,17 @@
       </div>
       <div class="container">
         <div class="container-sort">
-          <select-custom
-            :options="options"
-            :selected="selected"
-            @select="sortByOptions"
-          />
+          <select-custom :options="options" :selected="selected" @select="sortByOptions" />
           <div class="search-filed">
-            <input
-              type="text"
-              class="search-filed_input"
-              placeholder="Chercher..."
-              v-model="searchValue"
-            />
-            <button
-              type="submit"
-              class="search-filed_button"
-              value="submit"
-              @click="search(searchValue)"
-            />
+            <input type="text" class="search-filed_input" placeholder="Chercher..." v-model="searchValue" />
+            <button type="submit" class="search-filed_button" value="submit" @click="search(searchValue)" />
           </div>
           <btn-clear type="submit" value="submit" @click="clearFilters">
             Supprimer les filtres
           </btn-clear>
           <div class="input-range">
-            <input
-              v-model.number="minPrice"
-              @change="setRange"
-              type="range"
-              min="0"
-              max="500"
-              step="1"
-            />
-            <input
-              v-model.number="maxPrice"
-              @change="setRange"
-              type="range"
-              min="0"
-              max="500"
-              step="10"
-            />
+            <input v-model.number="minPrice" @change="setRange" type="range" min="0" max="500" step="1" />
+            <input v-model.number="maxPrice" @change="setRange" type="range" min="0" max="500" step="10" />
           </div>
           <div class="range-value">
             <p>Min: {{ minPrice }}</p>
@@ -63,12 +35,7 @@
           </div>
         </div>
         <div class="container-catalog">
-          <productItem
-            v-for="product in filteredProducts"
-            :key="product.id"
-            :product="product"
-            @addToCart="addToCart"
-          />
+          <productItem v-for="product in filteredProducts" :key="product.id" :product="product" @addToCart="addToCart" />
         </div>
       </div>
       <cart-button />
@@ -196,18 +163,22 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/scss/variables";
+
 .wrapper {
   margin: 0 auto;
   padding: 2em 0;
   max-width: 1710px;
+
   @media (max-width: (576px)) {
     padding: 0;
   }
 }
+
 .container {
   display: flex;
-  padding:2em;
+  padding: 2em;
   gap: 1em;
+
   @media (max-width: (576px)) {
     flex-direction: column;
   }
@@ -218,6 +189,7 @@ export default {
     flex-wrap: wrap;
     gap: 1em;
     width: 100%;
+
     @media (max-width: (576px)) {
       justify-content: center;
     }
@@ -228,6 +200,12 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    background-color: #fff;
+    padding: 3em 2em;
+    border-radius: 1em;
+    box-shadow: #8080806b 0 0 18px -3px;
+    height: fit-content;
+
     @media (max-width: (576px)) {
       width: 100%;
       padding: 0 1em;
@@ -241,6 +219,7 @@ export default {
   align-items: center;
   margin-bottom: 2em;
   gap: 0 2em;
+
   @media (max-width: (576px)) {
     margin: 0;
   }
@@ -266,6 +245,7 @@ export default {
     line-height: 14px;
     letter-spacing: 0.12px;
   }
+
   &_button {
     position: relative;
     margin-left: -3em;
@@ -273,6 +253,7 @@ export default {
     background-color: transparent;
     border: none;
     cursor: pointer;
+
     &::before {
       content: "";
       position: absolute;
@@ -286,44 +267,68 @@ export default {
     }
   }
 }
+
 .products {
-  & > p {
+  &>p {
     margin: 0;
   }
+
   &-quantity {
     font-size: 20px;
     font-weight: bold;
   }
 }
+
 .input-range {
   position: relative;
   margin-top: 3em;
 
-  & > input {
+  &>input {
     width: 100%;
     accent-color: $themeGreyAlt;
   }
 }
+
 .input-range svg,
 .input-range input[type="range"] {
   position: absolute;
   left: 0;
   bottom: 0;
 }
+
 input[type="range"]::-webkit-slider-thumb {
   z-index: 2;
   position: relative;
   top: 2px;
   margin-top: -7px;
 }
+
 .range-value {
   display: flex;
   justify-content: space-between;
-  & > p {
+
+  &>p {
     margin: 0;
     color: $themeBlack;
     font-size: 17px;
     font-weight: 400;
   }
+}
+
+.product {
+  transition: 0.8s ease-in-out;
+}
+
+.product:hover {
+  background-image: linear-gradient(108deg, #bcd114, #759c13);
+  margin: 0;
+  gap: 0;
+  transform: scale(1.1);
+  color: #fff;
+}
+
+img.main-product {
+  border-radius: 9em;
+  box-shadow: #d6d5f5 1px 0 32px 2px;
 }
 </style>

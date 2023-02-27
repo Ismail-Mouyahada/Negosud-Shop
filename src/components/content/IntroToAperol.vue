@@ -1,13 +1,12 @@
 <template>
   <div class="intro" v-if="desktopWidth">
     <div class="intro-item">
-      <img src="@/assets/background.jpg" />
+       
     </div>
     <div class="intro-item intro-text">
-      <div>
-        <h2>Intro aux apéritifs</h2>
-      </div>
+      <img class="main-product" src="@/assets/background.png" alt=""/>
       <div class="intro-text_description">
+        <h2>Negosud vinicole </h2>
         <p>
           Découvrez notre sélection de vins blancs et rouges soigneusement choisis pour offrir une expérience gustative unique. Rejoignez notre communauté en ligne pour échanger des conseils, avis et anecdotes avec d'autres amateurs de vin. Plongez dans l'univers envoûtant du vin dès maintenant !
         </p>

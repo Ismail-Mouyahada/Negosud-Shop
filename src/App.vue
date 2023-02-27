@@ -158,4 +158,8 @@ input{
     text-transform: uppercase;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+ 
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 100%;
+  }
 </style>

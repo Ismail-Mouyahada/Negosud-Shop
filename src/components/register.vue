@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <h1>Devenir</h1>
+  <HeaderFooterLayout>
+  <div class="container">
+    <h1>Devenir Client</h1>
     <form @submit.prevent="register">
       <label for="nomUtilisateur">Nom Utilisateur:</label>
       <input type="text" id="nomUtilisateur" v-model="nomUtilisateur" />
@@ -26,15 +27,19 @@
       <label for="motDePasse">Mot de passe:</label>
       <input type="password" id="motDePasse" v-model="motDePasse" />
 
-      <button type="submit">Soumettre</button>
+      <button class="btn btn-primary p-3 "  type="submit">Soumettre</button>
     </form>
   </div>
+</HeaderFooterLayout>
 </template>
 
 <script>
 import axios from "axios";
 
+
+
 export default {
+  name: "register",  
   data() {
     return {
       nomUtilisateur: "",

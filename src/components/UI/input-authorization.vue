@@ -1,5 +1,5 @@
 <template>
-  <input class="input-authorization" required autocomplete />
+  <input class="input-authorization" required />
 </template>
 
 <script>

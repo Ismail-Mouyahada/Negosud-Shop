@@ -4,10 +4,15 @@ const routes = [
   {
     path: "/",
     name: "home",
+    component: () => import("@/views/home.vue"),
+  },
+  {
+    path: "/account",
+    name: "account",
     meta: {
       requiresAuth: true
     },
-    component: () => import("@/views/home.vue"),
+    component: () => import("@/components/account.vue"),
   },
   {
     path: "/catalog",
@@ -61,21 +66,21 @@ const router = createRouter({
   routes
 });
 
-router.beforeEach((to, from, next) => {
-  const isAuthenticated = localStorage.getItem('token');
-  if (to.matched.some(record => record.meta.requiresAuth) && !isAuthenticated) {
-    next('/authorization');
+router.beforeEach((to, _from, next) => {
+  if (to.matched.some(record => record.meta.requiresAuth)) {
+    if (!localStorage.getItem('token')) {
+      next({
+        path: '/authorization',
+        query: { redirect: to.fullPath }
+      })
+    } else {
+      next({ path: '/account' }
+      )
+    }
   } else {
-    next();
+    next()
   }
 });
-
-// const router = createRouter({
-//   history: createWebHistory(process.env.BASE_URL),
-//   routes,
-//   scrollBehavior(to, from, savedPosition) {
-//     return { top: 0 };
-//   },
-// });
+ 
 
 export default router;

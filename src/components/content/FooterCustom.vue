@@ -1,44 +1,15 @@
 <template>
   <footer class="footer">
-    <div class="footer-container">
-      <div class="footer-container_item footer-newsletter">
-        <h3 class="footer-newsletter_title">Restez festifs</h3>
-        <p>
-          Abonnez-vous et rester au courant de toute l'actualité de nos produits. Negosud, on vous ramene le soliel de sud.
-        </p>
-        <div class="footer-newsletter_form">
-          <input type="mail" class="input-mail" placeholder="your mail" />
-          <button type="submit" class="button-submit" value="submit">
-            submit
-          </button>
-        </div>
-      </div>
-      <div class="footer-container_item footer-navigation">
-        <p class="footer-navigation_title">Explorer</p>
-        <a href="#">Accueil</a>
-        <a href="#">Boutique</a>
-        <a href="#">Abonnement</a>
-        <a href="#">Notre histoire</a>
-        <a href="#">FAQ</a>
-        <a href="#">Envoyer à un ami</a>
-        <a href="#">Promos & Cadeaux</a>
-        <a href="#">Carte fidilité</a>
-      </div>
-      <div class="footer-container_item footer-socials">
-        <p class="footer-socials_title">Nous suivre</p>
-        <a href="#">Instagram</a>
-        <a href="#">Spotify</a>
-        <a href="#">Twitter</a>
-        <a href="#">Facebook</a>
-      </div>
-    </div>
-    <div class="footer-copyrights">
+   
+    <div class="footer-copyrights p-3 text-center">
       <p class="footer-copyrights_item">© Negosud  2023</p>
       <p class="footer-copyrights_item">Nous contacter</p>
       <p class="footer-copyrights_item">Politques</p>
       <p class="footer-copyrights_item">Confidenitalité</p>
       <p class="footer-copyrights_item">Termes et Conditions</p>
     </div>
+     
+      
   </footer>
 </template>
 

@@ -12,5 +12,14 @@ export default {
   mounted() {
     console.log("vous êtes connacté !");
   },
+  components() {
+    return {
+      HeaderFooterLayout,
+      InputAuthorization,
+      BtnBlack,
+    };
+
+  },
+
 };
 </script>
