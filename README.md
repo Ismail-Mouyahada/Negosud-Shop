@@ -1,15 +1,9 @@
+
+
+
 # Negosud-Shop (wine shop)
-
-## Technical details
-
-## Features
-This project implements basic shopping cart and catalog features:
-* Pull products list from API
-* Add/Remove item to shopping cart
-* Filter, sort and search items in catalog
-* Find items by name and sort by price in catalog
-
-**Authorization in process (I've already started working on it)**
+ 
+ 
 
 ## Preview
  
